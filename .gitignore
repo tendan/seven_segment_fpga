@@ -26,6 +26,27 @@
 *_funcsim.v
 *_funcsim.vhdl
 .project
+*.bit
+*.bin
+*.bld
+*.cmd_log
+*.drc
+*.ncd
+*.ngc
+*.ngd
+*.ngr
+*.pad
+*.par
+*.pcf
+*.syr
+*.twr
+*.twx
+*.unroutes
+*.map
+*.mrp
+*.xrpt
+*.csv
+*.xml
 
 # [dir]
 *.cache
@@ -36,6 +57,10 @@
 *.sdk
 *.hw
 *.ip_user_files
+xst/*
+_ngo/*
+_xmsgs/*
+iseconfig/*
 
 ### IP synth
 *_synth_*
