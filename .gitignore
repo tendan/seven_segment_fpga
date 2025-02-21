@@ -47,6 +47,14 @@
 *.xrpt
 *.csv
 *.xml
+*.bgn
+*.lso
+*.prj
+*.ptwx
+*.stx
+*.ut
+*.xpi
+*.xst
 
 # [dir]
 *.cache
