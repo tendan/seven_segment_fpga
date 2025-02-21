@@ -1,0 +1,41 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -uc ucf/MimasV2Pinout.ucf -p xc6slx9-csg324-2
+Main_Component.ngc Main_Component.ngd
+
+Reading NGO file
+"/home/tendan/Projekty/FPGA/seven_segment_demo/Main_Component.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "ucf/MimasV2Pinout.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem - The Period constraint <PERIOD = 100MHz ;>
+   [ucf/MimasV2Pinout.ucf(15)], is specified using the Net Period method which
+   is not recommended. Please use the Timespec PERIOD method.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 386276 kilobytes
+
+Writing NGD file "Main_Component.ngd" ...
+Total REAL time to NGDBUILD completion:  1 sec
+Total CPU time to NGDBUILD completion:   1 sec
+
+Writing NGDBUILD log file "Main_Component.bld"...

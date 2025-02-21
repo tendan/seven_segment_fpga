@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/tendan/Projekty/FPGA/seven_segment_demo/Main_Component.ncd
+OUTFILE=/home/tendan/Projekty/FPGA/seven_segment_demo/Main_Component.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=/home/tendan/Projekty/FPGA/seven_segment_demo
+LICENSE=WebPack
+USER_INFO=212723621_0_0_850

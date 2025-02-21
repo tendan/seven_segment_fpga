@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Feb 21 15:03:39 2025
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "SevenSegmentEnable<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "SevenSegmentEnable<1>" LOCATE = SITE "A2" LEVEL 1;
+COMP "CLK_100MHz" LOCATE = SITE "V10" LEVEL 1;
+COMP "SevenSegmentEnable<2>" LOCATE = SITE "B3" LEVEL 1;
+COMP "SevenSegment<0>" LOCATE = SITE "A5" LEVEL 1;
+COMP "SevenSegment<1>" LOCATE = SITE "C6" LEVEL 1;
+COMP "SevenSegment<2>" LOCATE = SITE "D6" LEVEL 1;
+COMP "SevenSegment<3>" LOCATE = SITE "C5" LEVEL 1;
+COMP "SevenSegment<4>" LOCATE = SITE "C4" LEVEL 1;
+COMP "SevenSegment<5>" LOCATE = SITE "A4" LEVEL 1;
+COMP "SevenSegment<6>" LOCATE = SITE "B4" LEVEL 1;
+COMP "SevenSegment<7>" LOCATE = SITE "A3" LEVEL 1;
+NET "CLK_100MHz_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

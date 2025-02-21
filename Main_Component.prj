@@ -1,0 +1,6 @@
+vhdl work "src/Seven_Segment_Element.vhd"
+vhdl work "src/Clock_Divider.vhd"
+vhdl work "src/Seven_Segment_Converter.vhd"
+vhdl work "src/Segment_Counter.vhd"
+vhdl work "src/BCD_Counter.vhd"
+vhdl work "src/Main_Component.vhd"
